@@ -60,7 +60,7 @@
             .verticalmenu li:hover {
                 background-color: wheat;
             }
-            .content {
+            .kandungan {
                 width: 65%;
                 margin: auto;
                 border: black solid;
@@ -69,35 +69,29 @@
                 margin-right: 0;
                 height: 65%;
             }
+            table {
+                border: black solid 2px;
+                width: 80%;
+            }
+            th {
+                background-color: blue;
+                color: whitesmoke;
+            }
+            td, th {
+                border: black solid 2px;
+                text-align: center;
+            }
             .vertical:after {
                 content: "";
                 display: table;
                 clear: both;
             }
-            .profile img {
-                border: black solid;
-                padding: 5px;
-                margin: 10px;
-            }
-            .profile table {
-                border: black solid;
-                font-size: 3mm;
-                width: 80%;
-            }
-            .profile td {
-                border: black solid 2px;
-                width: 70%;
-            }
-            .profile .title {
-                text-align: right;
-                width: 30%;
-            }
-            .foot {
+        .kaki {
             text-align: center;
             background-color: yellowgreen;
             border: green solid;
             padding: 10px;
-            }
+        }
         </style>
     </head>
     <body>
@@ -124,29 +118,30 @@
                     <li><a href="tukar.html">Tukar Kata Laluan</a></li>
                  </ul>
             </div>
-        <div class="content">
-            <h3>Profil Saya</h3>
-            <div class="profile">
-                <img src='images/mak esah.jpg' width="100px">
-                <table>
-                    <tr>
-                        <td class="title">NO PELANGGAN :</td>
-                        <td>G416892</td>
-                    </tr>
-                    <tr>
-                        <td class="title">NAMA :</td>
-                        <td>Mak Esah</td>
-                    </tr>
-                    <tr>
-                        <td class="title">ALAMAT :</td>
-                        <td>No96, Jln Keluarga 69, Pasir Gudang, Johor</td>
-                    </tr>
-                </table>
-            </div>
+        <div class="kandungan">
+            <h3>Jenis Laundry</h3>
+            <table>
+                <tr>
+                    <th>Penerangan</th>
+                    <th>Harga/kg</th>
+                </tr>
+                <tr>
+                    <td><img src="selimut.png" width="100px"><br>Selimut</td>
+                    <td>RM10.00</td>
+                </tr>
+                <tr>
+                    <td><img src="karpet.png" width="100px"><br> Karpet</td>
+                    <td>RM20.00</td>
+                </tr>
+                <tr>
+                    <td><img src="pakaian.png" width="100px"><br>Pakaian</td>
+                    <td>RM6.00</td>
+                </tr>
+            </table>
         </div>
     </div>
         <!--FOOTER-->
-    <div class="foot">
+    <div class="kaki">
         <font>Copyright &copy; Syarikat Laundry, 2021</font>
     </div>
         </center>
